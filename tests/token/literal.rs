@@ -1,4 +1,4 @@
-use luau_lexer::prelude::{Lexer, Literal, LuauNumber, LuauString, TokenType};
+use lux_lexer::prelude::{Lexer, Literal, LuauNumber, LuauString, TokenType};
 
 macro_rules! asserts {
     ($lexer: ident, $value: expr) => {

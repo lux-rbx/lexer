@@ -1,15 +1,15 @@
 [package]
-name = "luau-lexer"
+name = "lux-lexer"
 description = "A lexer for the luau language."
-version = "0.2.4"
+version = "0.1.0"
 edition = "2021"
 license = "MIT"
 readme = "README.md"
 keywords = ["luau", "lexer"]
 
-documentation = "https://docs.rs/luau-lexer"
-repository = "https://github.com/msix29/luau-lexer"
-homepage = "https://github.com/msix29/luau-lexer"
+# documentation = "https://docs.rs/luau-lexer"
+repository = "https://github.com/lux-rbx/lexer"
+homepage = "https://github.com/lux-rbx/lexer"
 
 [dependencies]
 serde = { version = "1.0.219", features = ["derive"], optional = true }
